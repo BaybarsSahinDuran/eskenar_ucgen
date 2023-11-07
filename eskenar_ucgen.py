@@ -11,8 +11,8 @@ def hareket():
     hiz_mesaji = Twist()
 
     for i in range(3):
-        hiz_mesaji.linear.x = 0.3  # Set the linear velocity (adjust as needed)
-        mesafe = 3.0
+        hiz_mesaji.linear.x = 0.3  
+        mesafe = 1.0
         yer_degistirme = 0.0
         t0 = rospy.Time.now().to_sec()
 
